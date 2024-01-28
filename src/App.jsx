@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header"
+import MovieCard from "./components/MovieCard/MovieCard"
 import SideBar from "./components/SideBar/SideBar"
 
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <main className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
         <SideBar />
+        <MovieCard />
       </main>
     </>
   )
