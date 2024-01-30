@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import MovieCard from "./components/MovieCard/MovieCard"
 import SideBar from "./components/SideBar/SideBar"
@@ -13,6 +14,7 @@ function App() {
         <SideBar />
         <MovieCard />
       </main>
+      <Footer />
     </>
   )
 }
